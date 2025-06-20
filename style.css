@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+header nav{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+header nav ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+header nav .login{
+    font-weight: 600;
+}
+.btn{
+    width: 40%;
+    height: 56px;
+    color: white;
+    background-color: rgb(255,83,49);
+    border-radius: 30px;
+    border: 1px solid white;
+    margin: 2px 5px;
+    padding: 5px;
+}
+.signup_btn{
+    width: 115px;
+    height: 56px;
+    color: white;
+    background-color: rgb(255,83,49);
+    border-radius: 30px;
+    border: 1px solid white;
+    margin: 0 0 0 20px;
+}
+.deli_partner{
+    background-image: url('image/Frame\ 18535.png');
+    background-position: right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    height: 478px;
+    margin: 50px;
+    border-radius: 30px;
+}
+.deli_partner .deli_text{
+    width: 40%;
+    padding: 50px;
+}
+.deli_partner .deli_text h1{
+    font-size: 2.5em;
+}
+.deli_partner .deli_text p{
+    padding: 20px 0 20px 0;
+}
+.order {
+    background-color: rgb(246,246,246);
+    width: 400px;
+    height: 60px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.deli_partner .deli_text .order #inp, .subscribe .order #inp{
+    border: none;
+    border-radius: 40px;
+    padding: 20px;
+    color: black;
+    width: 100%;
+    background-color: rgb(246,246,246);
+}
+.deli_partner .deli_text img{
+    display: inline-block;
+    margin: 30px 0 20px 0;
+    height: 64px;
+    width: 160px;
+}
+.text {
+    text-align: center;
+}
+.text h2{
+    font-size: 2em;
+    padding: 20px;
+    font-weight: 600;
+}
+.text h2 span{
+    color: rgb(255,83,49);
+}
+
+.sub_dishes{
+    display: inline-block;
+    background-color: rgb(246,246,246);
+    border-radius: 20px;
+    width: 160px;
+    height: 200px;
+    margin: 20px;
+}
+.sub_dishes p{
+    font-weight: 600;
+}
+.sub_dishes .dish_img{
+    border-radius: 100%;
+    height: 108px;
+    width: 108px;
+    background-color: white;
+    margin: 20px;
+}
+.sub_dishes .dish_img img{
+    margin: 27px;
+}
+.text .dishes1 .illus{
+    background-image: url('image/Illustrations.png');
+    background-position: bottom right;
+    background-color: rgb(246,246,246);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.text .dishes1 .illus .red{
+    color: rgb(255,83,49);
+}
+.text .dishes1 .illus .green{
+    color: rgb(62,179,62);
+}
+.text .dishes1 .illus p{
+    font-weight: 600;
+    padding: 30px;
+    text-align: left;
+}
+.text .dishes1, .text .dishes2{
+    display: flex;
+    margin: 40px;
+}
+.text .dishes1{
+    justify-content: flex-end;
+}
+.text .dishes2{
+    justify-content: flex-start;
+}
+.text .dishes2 .dish_text{
+    text-align: left;
+    margin: 20px 0 20px 20px;
+    padding: 20px;
+    width: 400px;
+}
+.text .dishes2 .dish_text p{
+    padding: 20px 0px 20px 0px;
+}
+.main_order{
+    margin: auto;
+    text-align: center;
+}
+.main_order h2{
+    font-size: 2em;
+    font-weight: 600;
+}
+.main_order .orders {
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    margin: 30px;
+    color: rgb(255,83,49);
+    text-align: left;
+    font-size: 2em;
+    font-weight: 500;
+    position: relative;
+}
+.main_order .orders .sub_orders{
+    padding: 20px;
+    background-color: rgb(246,246,246);
+    color: black;
+    width: 180px;
+    height: 220px;
+    border-radius: 20px;
+    position: absolute;
+    top: 25px;
+}
+.main_order .orders .sub_orders .order_img{
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.main_order .orders .sub_orders .order_img img{
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+}
+.main_order .orders .sub_orders p{
+    font-size: 15px;
+}
+.feedback{
+    text-align: center;
+    margin: auto ;
+    justify-content: center;
+    width: 700px;
+    padding: 20px;
+}
+.feedback h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+.feedback p{
+    padding: 20px;
+    line-height: 1.5;
+}
+.feedback .vector p{
+    font-style: italic;
+    font-weight: 600;
+}
+.feedback .ceo{
+    margin: 10px;
+    font-size: 10px;
+}
+.feedback .ceo p{
+    color: grey;
+    padding: 0;
+}
+
+.subscribe{
+    margin: 50px 0 0 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    background-color: rgb(255,239,236);
+    padding: 70px;
+}
+.subscribe .order {
+    height: 60px;
+}
+.subscribe .sub_text h2{
+   padding: 5px 0;
+   font-size: 2em;
+   font-weight: 600;
+}
+footer{
+    height: 600px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 50px;
+}
+footer .upper_footer .footer_img img{
+    padding: 20px;
+}
+footer .upper_footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer .upper_footer ul li{
+    list-style: none;
+    color: grey;
+    padding: 10px;
+}
+footer .upper_footer ul h3{
+    padding: 10px;
+}
+footer .lower_footer {
+    margin: 200px 50px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+footer .lower_footer p{
+    padding: 20px;
+}
+
+footer .lower_footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
